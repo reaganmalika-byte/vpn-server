@@ -1,0 +1,30 @@
+.gitignore
+# Build directories
+build/
+bin/
+obj/
+*.o
+*.a
+*.so
+*.dll
+*.exe
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+CMakeLists.txt.user
+
+# Binaries
+vpn_server
+vpn_client
+
+# Logs
+*.log
